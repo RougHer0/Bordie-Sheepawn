@@ -132,6 +132,24 @@
       		<disallowedTraits>
         		<!--<li>CreepyBreathing</li>-->
       		</disallowedTraits>
+			
+		<alienPartGenerator>
+        	<aliencrowntypes>
+          		<li>BD_Custom_1</li>
+          		<li>BD_Custom_2</li>
+          		<li>BD_Custom_3</li>
+        	</aliencrowntypes>
+        	<alienbodytypes>
+            	<li>Thin</li>
+            	<li>Female</li>
+        	</alienbodytypes>
+        	<headOffset>(0.0, -0.05)</headOffset>
+        	<headOffsetDirectional>
+          		<east>(-0.06, -0.02)</east>
+          		<west>(0.06, -0.02)</west>
+        	</headOffsetDirectional>
+        	<useGenderedHeads>true</useGenderedHeads>
+        	<useGenderedBodies>false</useGenderedBodies>
 
 
 </Defs>
