@@ -119,7 +119,19 @@
                 <body>Bordielike/Bodies/</body>
                 <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
             </li>
-    </graphicPaths> 
+    </graphicPaths>
+
+	<generalSettings>
+			<maleGenderProbability>0.6</maleGenderProbability>
+			<!--<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>-->
+			<immuneToAge>false</immuneToAge>
+      <humanRecipeImport>true</humanRecipeImport>
+      <canLayDown>true</canLayDown>
+			<maxDamageForSocialfight>6</maxDamageForSocialfight>
+      <immuneToXenophobia>false</immuneToXenophobia>
+      <disallowedTraits>
+        <!--<li>CreepyBreathing</li>-->
+      </disallowedTraits>
 
 
 </Defs>
