@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<AlienRace.RaceSettings>
+    <defName>BD_Settings</defname>
+        <pawnKindSettings>
+            			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>BD_Colonist</li>
+							</kindDefs>
+							<chance>70.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>SPBD_PlayerFaction</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>BD_Wanderer</li>
+					</kindDefs>
+					<chance>15.0</chance>
+				</li>
+			</alienslavekinds>
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>BD_Wanderer</li>
+					</kindDefs>
+					<chance>20.0</chance>
+				</li>
+			</alienrefugeekinds>
+			<alienwandererkinds>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>BD_Wanderer</li>
+							</kindDefs>
+							<chance>1.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>BD_TheStrayed</li>
+					</factionDefs>
+				</li>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>BD_Colonist</li>
+							</kindDefs>
+							<chance>1.0</chance>
+						</li>
+
+					</pawnKindEntries>
+					<factionDefs>
+						<li>BD_TheStrayed</li>
+					</factionDefs>
+				</li>
+			</alienwandererkinds>
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+</Defs>
