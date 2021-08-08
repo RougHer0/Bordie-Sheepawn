@@ -149,7 +149,7 @@
           		<west>(0.06, -0.02)</west>
         	</headOffsetDirectional>
         	<useGenderedHeads>true</useGenderedHeads>
-        	<useGenderedBodies>false</useGenderedBodies>
+        	<useGenderedBodies>true</useGenderedBodies>
 
 
 </Defs>
