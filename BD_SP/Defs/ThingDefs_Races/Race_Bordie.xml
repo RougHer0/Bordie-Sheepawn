@@ -5,7 +5,7 @@
 <AlienRace.RaceSettings>
     <defName>BD_Settings</defname>
         <pawnKindSettings>
-            			<startingColonists>
+            <startingColonists>
 				<li>
 					<pawnKindEntries>
 						<li>
@@ -66,5 +66,60 @@
 				</li>
 			</alienwandererkinds>
 		</pawnKindSettings>
-	</AlienRace.RaceSettings>
+</AlienRace.RaceSettings>
+
+
+<ThingDef Name="BaseBordiePawn" ParentName="BasePawn" Abstract="True">
+    <thingClass>pawn</thingClass>
+    <category>pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <hasTooltip>true</hasTooltip>
+    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+    <statBases>
+      <Mass>65</Mass>
+    </statBases>
+	<inspectorTabs Inherit="False">
+      <li>ITab_Pawn_Health</li>
+      <li>ITab_Pawn_Needs</li>
+      <li>ITab_Pawn_Character</li>
+      <li>ITab_Pawn_Training</li>
+      <li>ITab_Pawn_Social</li>
+      <li>ITab_Pawn_Guest</li>
+      <li>ITab_Pawn_Prisoner</li>
+	  <li MayRequire="Ludeon.RimWorld.Ideology">ITab_Pawn_Slave</li>
+      <li>ITab_Pawn_FormingCaravan</li>
+      <li>ITab_Pawn_Gear</li>
+      <li>ITab_Pawn_Log</li>
+	</inspectorTabs>
+    <comps>
+      <li>
+        <compClass>CompAttachBase</compClass>
+      </li>
+    </comps>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+
+<AlienRace.ThingDef_AlienRace ParentName="BaseBordiePawn">
+    <defName>Alien_Bordie</defName>
+    <label>Bordie</label>
+    <description>Humanoid with Dog's tail and ear. Cute.</description>
+
+<!-- 에일리언레이스셋팅 -->
+
+
+<alienRace>
+    <graphicPaths>
+        <!--MODFOLER/Textures/Bordielike/Heads/-->
+            <li>
+                <head>Bordielike/Heads/</head>
+                <body>Bordielike/Bodies/</body>
+                <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+            </li>
+    </graphicPaths> 
+
+
 </Defs>
