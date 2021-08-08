@@ -125,13 +125,13 @@
 			<maleGenderProbability>0.6</maleGenderProbability>
 			<!--<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>-->
 			<immuneToAge>false</immuneToAge>
-      <humanRecipeImport>true</humanRecipeImport>
-      <canLayDown>true</canLayDown>
+      		<humanRecipeImport>true</humanRecipeImport>
+      		<canLayDown>true</canLayDown>
 			<maxDamageForSocialfight>6</maxDamageForSocialfight>
-      <immuneToXenophobia>false</immuneToXenophobia>
-      <disallowedTraits>
-        <!--<li>CreepyBreathing</li>-->
-      </disallowedTraits>
+      		<immuneToXenophobia>false</immuneToXenophobia>
+      		<disallowedTraits>
+        		<!--<li>CreepyBreathing</li>-->
+      		</disallowedTraits>
 
 
 </Defs>
